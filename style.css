@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 4vw;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    width: 100vw;
+}
+
+.div1{
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: relative;
+
+}
+
+/* Header */
+.top{
+    width: 25rem;
+    height: 23.333333333333332rem;
+    background-image: linear-gradient(180deg,#000000C4,#00000000);
+    top: 0;
+    position: absolute;
+}
+
+.profile{
+    width: 8rem;
+    height: 2.6666666666666665rem;
+    background-color: #FFFFFF4D;
+    border: .07rem solid #FFFFFF;
+    border-radius: 1.3333333333333333rem    ;
+}
+.logo{
+    width: 2.6666666666666665rem;
+    border: .07rem solid #FFFFFF;
+}
+.name ,.prof{
+    font-size: 0.733rem;
+}
+.user{
+    width: 0.5886666666666667rem;
+    height: 0.6726666666666666rem;
+
+}
+.drawer{
+    width: 2.6666666666666665rem;
+    height: 2.6666666666666665rem;
+    position: absolute;
+
+}
+.viewers{
+    position:relative ;
+    display: flex;
+    
+    
+}
+.pic{
+    width: 2.6666666666666665rem;
+    border: .07rem solid #FFFFFF;
+
+}
+.drawer{
+    z-index: 7;
+
+}
+.logo-1{
+    left: 1.34rem;
+    z-index: 6;
+    position: absolute;
+}
+.logo-2{
+    left: 2.67rem;
+    z-index: 5;
+    position: absolute;
+}
+.logo-3{
+    left: 4rem;
+    z-index: 4;
+    position: absolute;
+}
+.logo-4{
+    left: 5.33rem;
+    z-index: 3;
+    position: absolute;
+}
+.logo-5{
+    left: 6.66rem;
+    z-index: 2;
+    position: absolute;
+}
+.logo-6{
+    left: 8rem;
+    z-index: 1;
+    position: absolute;
+}
+.close{
+    width: 1rem;
+    height: 1rem;
+}
+.live-section{
+    width: 8rem;
+    height: 1.4rem;
+    align-items: center;
+}
+.live-icon{
+    background-color: #F22A2A;
+    border-radius: .1333rem;
+}
+.txt{
+    font-size: 0.666rem;
+    font-weight: 500;
+    color: #fff;
+}
+.time ,.gifted{
+    font-size: .8rem;
+    color: #fff;
+}
+.coin-ico{
+    width: 1.057rem;
+    height: 1.057rem;
+}
+
+/* Bottom */
+.bottom{
+    width: 25rem;
+    height: 22.4rem;
+    background-image: linear-gradient(0deg,#000000,#00000000);
+    bottom: 0;
+    position: absolute;
+}
+
+.bottom-cnts{
+    height: 26.6rem;
+    bottom: 0;
+    position: absolute;
+}
+.options{
+    width: 3.133rem;
+    height: 21.94rem;
+    right: 1rem ;
+    top: .23rem;
+    position: absolute;
+    justify-content:space-around ;
+
+}
+.option{
+    width: 3rem;
+    height: 3rem;
+    background-color: #00000069;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.num{
+    width: 1.1486rem;
+    height: 1.1486rem;
+    background-color: #F22A2A;
+    border: .066rem solid #fff;
+    font-size: .766rem;
+    top: -0.5rem;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+}
+
+.invite#friends{
+    width: 1.5753333333333333rem ;
+    height: 1.1119rem;}
+.invite#emoji{
+    width: 1.8734rem;
+    height: 1.724rem;}
+.invite#beautify{
+    width: 1.4rem;
+    height: 1.4rem;}
+.invite#settings{
+    width: 1.2633rem;
+    height: 1.2633rem;
+}
+.invite#share{
+    width: 1.4rem;
+    height: .9rem;
+}
+.invite#rotate_camera{
+    width: 1.7646rem;
+    height: 1.414rem;
+}
+
+.box{
+    width: 22.066rem;
+    height: 2.8rem;
+    background-color: #E9E9E9;
+    border-radius: 1.4rem;
+    bottom: 1rem;
+    padding: 0 1.333rem;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    color: #666666;
+    font-size: .9333rem;
+}
+.smile{
+    width: 1.333rem;
+}
+
+.emoji{
+    width: 1.333rem;
+    height: 1.333rem;
+}
+.emoji-react{
+    width: 18.133rem;
+    bottom: 4.87rem;
+    position: absolute;
+}
+
+
+/* Comment Text Component */
+
+.emoji_ico{
+    width: 1.591rem;
+    height: 1.465rem;
+    position: relative;
+}
+
+.text-component{
+    width: 19.867rem;
+    height: 37.6vh;
+    bottom: 6.27rem;
+    z-index: 1031;
+    left: 1rem;
+    position: absolute;
+    overflow: auto;
+    
+    
+}
+.mask{
+    height: 20.34rem;
+    position: absolute;
+}
+.request{
+    width: 18rem;
+    height: 2.933rem;
+    background-color: #0000004b;
+    border-radius: 1.4rem;
+}
+.sent-txt{
+    font-size: .8rem;
+    width: 57%;
+    color: #fff;
+}
+.view-opt{
+    color: #00B3FF;
+    font-size: .8rem;
+    font-weight: bold;
+    align-self: center;
+}
+.Comment{
+    width: auto;
+    border-radius: 1.4rem;
+    background-color: #0000004b;
+}
+.delete-ico{
+    width: .622rem;
+    height: .8rem;
+}
+.user-name{
+    font-size: .9333rem;
+    font-weight: bold;
+    color: #fff;
+}
+.text-component::-webkit-scrollbar{
+    display: none;}
+.comment-text-emoji{
+    width: .8rem;
+}
+.Comment#comment-1, .Comment#comment-2{
+    opacity: 60%;
+}
+.live-user{
+    font-size: .933rem;
+    color: #fff;
+}
+
+
+/* Flying Heart Reaction By Users */
+.users{
+    width: 3.8rem;
+    height: 9.3rem;
+    bottom: 6.4rem;
+    right: 3.4rem;
+    opacity: 50%;
+    position:absolute ;
+}
+
+.screen{
+    width: .867rem;
+}
+
+.circle#heart-1{
+    bottom: 0;
+    right: .4rem;
+    position: absolute;
+}
+.circle#heart-2{
+    bottom: 0.533rem;
+    right: 1.266rem;
+    position: absolute;
+}
+.circle#heart-3{
+    bottom: 1.4rem;
+    right: .666rem;
+    position: absolute;
+}
+
+.circle#heart-4{
+    bottom: 1.87rem;
+    right: 1.4rem;
+    position: absolute;
+}
+
+.circle#heart-5{
+    bottom: 2.533rem;
+    right: 0;
+    position: absolute;
+}
+
+.circle#heart-6{
+    top: 5.5rem;
+    right: .7rem;
+    position: absolute;
+}
+
+.circle#heart-7{
+    top:4.933rem;
+    right: 1.8rem;
+    position: absolute;
+}
+
+.circle#heart-8{
+    top: 4.066rem;
+    right: .9333rem;
+    position: absolute;
+}
+
+.circle#heart-9{
+    top: 3.533rem;
+    right: 1.8rem;
+    position: absolute;
+}
+
+.circle#heart-9{
+    top: 2.733rem;
+    right: 1.2rem;
+    position: absolute;
+}
+
+.circle#heart-10{
+    top: 2.266rem;
+    right: 1.933rem;
+    position: absolute;
+}
+
+.circle#heart-11{
+    top: 1.4666rem;
+    right: 1.533rem;
+    position: absolute;
+}
+
+.circle#heart-12{
+    top: .6rem ;
+    left: .66rem;
+    position: absolute;
+}
+
+.circle#heart-13{
+    top: 0;
+    left: 0;
+    position: absolute;
+}
